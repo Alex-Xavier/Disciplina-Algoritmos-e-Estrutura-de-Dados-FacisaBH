@@ -1,7 +1,9 @@
-//Operação criar-lista
-function criaLista () {
-    console.log("Lista criada!");
-    return listaNumeros = [];
+//Exercício 2 -> TAD lista-aluno
+
+//Operação criar-lista-alunos
+function criaListaAlunos () {
+    console.log("Lista de alunos criada!");
+    return listaAlunos = [];
 }
 
 //Operação inserir-na-lista
