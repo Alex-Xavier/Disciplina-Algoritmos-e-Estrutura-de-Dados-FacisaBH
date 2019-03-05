@@ -18,7 +18,7 @@ function deletaAlunoLista (indice) {
     return console.log("Aluno no indice ",indice," deletado da lista!");
 }
 
-//Operação finalizar-lista
+//Operação finalizar-lista-aluno
 function destroiListaAluno () {
     for (i=0; i<listaAlunos.length; i++) {
         listaAlunos[i] = null;
@@ -26,9 +26,9 @@ function destroiListaAluno () {
     return console.log("A lista de alunos foi deletada e está totalmente vazia!");
 }
 
-//Operação tamanho
-function tamanhoLista () {
-    return console.log(listaNumeros.length);
+//Operação tamanho-lista-aluno
+function quantidadeListaAluno () {
+    return console.log("A lista contém ",listaAlunos.length," alunos!");
 }
 
 //Operação esta-na-lista
