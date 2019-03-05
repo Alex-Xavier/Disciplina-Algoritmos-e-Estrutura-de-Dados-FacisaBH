@@ -7,9 +7,9 @@ function criaListaAlunos () {
 }
 
 //Operação inserir-na-lista-aluno
-function inseriAlunoLista (n) {
-    listaNumeros.push(n);
-    return console.log("Aluno",n,"inserido!");
+function inseriAlunoLista (aluno) {
+    listaNumeros.push(aluno);
+    return console.log("Aluno",aluno,"inserido!");
 }
 
 //Operação eliminar-aluno-da-lista
@@ -31,15 +31,14 @@ function quantidadeListaAluno () {
     return console.log("A lista contém ",listaAlunos.length," alunos!");
 }
 
-//Operação esta-na-lista
-function procurarElementoLista (n) {
+//Operação aluno-esta-na-lista
+function procurarMatriculaAlunoLista (matricula) {
     for (i=0; i<listaNumeros.length; i++) {
-        if (n === listaNumeros[i]) {
-            return console.log("Elemento ",n," está na lista na posição ",i,"!");
-        }else{
-
+        if (matricula == listaAlunos[i].matricula) {
+            return console.log("Aluno com a matrícula ",matricula," está na lista na posição ",i,"!");
         }
-    }    
+    }
+    return console.log("Aluno com a matrícula ",matricula," não foi encontrado!");
 }
 
 //Operação imprimir
