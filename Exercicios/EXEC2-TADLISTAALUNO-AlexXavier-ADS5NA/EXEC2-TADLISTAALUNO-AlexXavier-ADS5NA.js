@@ -6,10 +6,10 @@ function criaListaAlunos () {
     return listaAlunos = [];
 }
 
-//Operação inserir-na-lista
-function inseriElementoLista (n) {
+//Operação inserir-na-lista-aluno
+function inseriAlunoLista (n) {
     listaNumeros.push(n);
-    return console.log("Número",n,"inserido!");
+    return console.log("Aluno",n,"inserido!");
 }
 
 //Operação eliminar-da-lista
