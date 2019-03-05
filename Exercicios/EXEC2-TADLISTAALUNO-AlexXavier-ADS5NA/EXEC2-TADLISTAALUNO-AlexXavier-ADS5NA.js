@@ -19,8 +19,11 @@ function deletaAlunoLista (indice) {
 }
 
 //Operação finalizar-lista
-function finalizarLista () {
-    //Não entendi!
+function destroiListaAluno () {
+    for (i=0; i<listaAlunos.length; i++) {
+        listaAlunos[i] = null;
+    }
+    return console.log("A lista de alunos foi deletada e está totalmente vazia!");
 }
 
 //Operação tamanho
