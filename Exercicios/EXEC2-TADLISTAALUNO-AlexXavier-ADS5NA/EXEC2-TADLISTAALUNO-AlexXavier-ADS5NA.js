@@ -12,10 +12,10 @@ function inseriAlunoLista (n) {
     return console.log("Aluno",n,"inserido!");
 }
 
-//Operação eliminar-da-lista
-function deletaElementoLista (indice) {
+//Operação eliminar-aluno-da-lista
+function deletaAlunoLista (indice) {
     listaNumeros.splice(pos, indice);
-    return console.log("Indice ",indice," deletado da lista!");
+    return console.log("Aluno no indice ",indice," deletado da lista!");
 }
 
 //Operação finalizar-lista
