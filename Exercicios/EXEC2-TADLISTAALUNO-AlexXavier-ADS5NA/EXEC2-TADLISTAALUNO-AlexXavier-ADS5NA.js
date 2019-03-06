@@ -67,7 +67,7 @@ function mostraAlunoLista () {
     for (i=0; i<listaAluno.length; i++) {
         console.log("Nome: ",listaAluno[i].nome);
         console.log("Matrícula: ",listaAluno[i].matricula);
-        console.log("Soma de Nostas: ",listaAluno[i].somatorioNota);
+        console.log("Soma de Notas: ",listaAluno[i].somatorioNota);
     }
     return console.log("Todos os alunos foram mostrados!");
 }
