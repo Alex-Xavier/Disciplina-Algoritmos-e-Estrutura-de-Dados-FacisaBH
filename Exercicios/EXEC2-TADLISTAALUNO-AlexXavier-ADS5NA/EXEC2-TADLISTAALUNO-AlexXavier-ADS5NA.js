@@ -64,7 +64,32 @@ function mostraAlunoLista () {
 }
 
 function capturaEscolhaExecuta () {
-    Escolha = prompt("Escolha uma das opções listadas: ");
+    do {    
+        escolha = prompt("Escolha uma das opções listadas: ");
+        switch (escolha) {
+            case 1:
+                criaListaAluno();
+                break;
+            case 2:
+                inseriAlunoLista();
+                break;
+            case 3:
+
+                break;
+            case 4:
+
+                break;
+            case 5:
+
+                break;
+            case 6:
+
+                break;
+            case 7:
+                
+                break;
+        }
+    }while(escolha != 7);
 }
 
 capturaEscolhaExecuta();
