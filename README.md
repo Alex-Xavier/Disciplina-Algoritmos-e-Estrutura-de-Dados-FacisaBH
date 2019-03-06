@@ -1,2 +1,2 @@
-# Disciplina-Topicos-Especiais-II-FacisaBH
-Este repositório tem como finalidade manter o histórico de atividades avaliativas da disciplina citada acima no curso de Análise e Desenvolvimento de Sistemas da Faculdade de Ciências Sociais Aplicadas de Belo Horizonte. 
+# Disciplina-Algoritmos-e-Estrutura-de-Dados-FacisaBH
+Este repositório tem como finalidade manter o histórico de atividades avaliativas da disciplina citada acima no curso de Análise e Desenvolvimento de Sistemas da Faculdade de Ciências Sociais Aplicadas de Belo Horizonte.
