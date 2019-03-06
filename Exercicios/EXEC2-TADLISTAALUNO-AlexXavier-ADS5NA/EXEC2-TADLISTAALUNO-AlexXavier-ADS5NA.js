@@ -18,7 +18,7 @@ function inseriAlunoLista (aluno) {
     listaAluno.push(aluno);
     aluno = {nome: "Lucas Gimenez", matricula: 14462, somatorioNota: 37};
     listaAluno.push(aluno);
-    return console.log("Alunos padrões inserido!");
+    return console.log("Alunos padrões inseridos!");
 }
 
 //Operação eliminar-aluno-da-lista
@@ -72,7 +72,7 @@ function mostraAlunoLista () {
     return console.log("Todos os alunos foram mostrados!");
 }
 
-function capturaEscolhaExecuta () {
+/*function capturaEscolhaExecuta () {
     do {    
         escolha = prompt("Escolha uma das opções listadas: ");
         switch (escolha) {
@@ -101,4 +101,4 @@ function capturaEscolhaExecuta () {
     }while(escolha != 7);
 }
 
-capturaEscolhaExecuta();
+capturaEscolhaExecuta();*/
