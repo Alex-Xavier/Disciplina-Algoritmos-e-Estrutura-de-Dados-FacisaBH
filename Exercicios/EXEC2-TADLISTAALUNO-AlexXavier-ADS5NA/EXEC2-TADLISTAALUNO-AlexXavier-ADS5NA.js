@@ -62,18 +62,3 @@ function mostraAlunoLista () {
     }
     return console.log("Todos os alunos foram mostrados!");
 }
-
-function menuAluno () {
-    console.log(`    ==========================================
-                    MENU ALUNO
-    ==========================================
-    [1] Criar Lista de Alunos
-    [2] Inserir Aluno na Lista
-    [3] Deletar um Aluno da Lista
-    [4] Quantidade de Alunos na Lista
-    [5] Procurar um Aluno
-    [6] Mostrar Todos os Alunos
-    [7] Finalizar a Lista
-    `);
-    return 0;
-}
