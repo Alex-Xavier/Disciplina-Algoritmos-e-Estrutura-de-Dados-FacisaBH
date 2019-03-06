@@ -83,19 +83,19 @@ function capturaEscolhaExecuta () {
                 inseriAlunoLista();
                 break;
             case 3:
-
+                deletaAlunoLista(14461);
                 break;
             case 4:
-
+                quantidadeListaAluno();
                 break;
             case 5:
-
+                procurarMatriculaAlunoLista(14458);
                 break;
             case 6:
-
+                mostraAlunoLista();
                 break;
             case 7:
-                
+                destroiListaAluno();
                 break;
         }
     }while(escolha != 7);
