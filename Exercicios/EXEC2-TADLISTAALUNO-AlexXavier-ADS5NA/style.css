@@ -1,8 +1,8 @@
 body {
-    background-color: blue;
+    background-color: black;
 }
 
 p {
-    align-content: center;
-    color: #ff0000;
+    text-align: center;
+    color: white;
 }
