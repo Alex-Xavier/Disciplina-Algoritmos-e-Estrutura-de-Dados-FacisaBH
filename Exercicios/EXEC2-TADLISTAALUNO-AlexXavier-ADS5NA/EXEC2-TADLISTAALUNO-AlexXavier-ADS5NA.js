@@ -8,8 +8,17 @@ function criaListaAluno () {
 
 //Operação inserir-na-lista-aluno
 function inseriAlunoLista (aluno) {
+    aluno = {nome: "Alex Xavier", matricula: 14458, somatorioNota: 40};
     listaAluno.push(aluno);
-    return console.log("Aluno",aluno,"inserido!");
+    aluno = {nome: "Godines Silva", matricula: 14459, somatorioNota: 18};
+    listaAluno.push(aluno);
+    aluno = {nome: "Janaína Vitória", matricula: 14460, somatorioNota: 28};
+    listaAluno.push(aluno);
+    aluno = {nome: "Kleber Santos", matricula: 14461, somatorioNota: 32};
+    listaAluno.push(aluno);
+    aluno = {nome: "Lucas Gimenez", matricula: 14462, somatorioNota: 37};
+    listaAluno.push(aluno);
+    return console.log("Alunos padrões inserido!");
 }
 
 //Operação eliminar-aluno-da-lista
