@@ -62,3 +62,9 @@ function mostraAlunoLista () {
     }
     return console.log("Todos os alunos foram mostrados!");
 }
+
+function capturaEscolhaExecuta () {
+    Escolha = prompt("Escolha uma das opções listadas: ");
+}
+
+capturaEscolhaExecuta();
